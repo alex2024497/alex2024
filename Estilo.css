@@ -1,0 +1,210 @@
+.container {
+	max-width: width 1000px;
+	flex: 1;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height:inherit; 
+	flex-wrap: inherit;
+	padding: 0 1em; 
+}
+
+
+
+.logo{
+    padding-top: 1%;
+}
+
+.header{
+    background-color: blue;
+    color: aqua;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    flex-wrap: wrap;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ol {
+	display: flex;
+	height: inherit;
+	
+} 
+
+.header ol li {
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+.header a{
+	display: flex;
+	align-items: center;
+	height: inherit;
+	padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+ol,
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.mauro {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.resaltar {
+    color: blue;
+}
+
+.texto {
+    font-family: sans-serif;
+    font-size: 2rem;
+    padding-left: 20px;
+    text-transform: uppercase;
+
+}
+
+
+.portafolio {
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcion {
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+
+.titulo {
+    align-items: center;
+    padding-left: 35%;
+}
+
+
+
+
+.flexible-video{
+    width: 100%;
+    height: 0;
+    padding: -top 56 .25%;
+    background-color: blue;
+    position: relative;
+}
+
+.yutube-video{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+}
+event-details{
+margin: 20 px 40px;
+background-color: white;
+margin: -40px;
+position: relative;
+
+}
+
+
+
+.event-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.event {
+	
+	margin: 1%;
+	width: 48%;
+	flex-shrink: 0;
+	/*border-radius: 5px;*/
+	overflow: hidden;
+	background: rgba(14,60,187,1.00);
+}
+
+.event img {
+	
+	height: 250px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.html-video {
+	height: auto;
+	object-fit: cover;
+	width: 100%;
+}
+
+.flexible-video {
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+	background: blue;
+	position: relative;
+}
+
+.youtube-video {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+.event-details {
+	margin: 20px 40px; 
+	background-color: white;
+	margin-top: -40px;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.event-description {
+	/*text-align: left;*/
+}
+
+.event-url {
+	border: 1px solid blue;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: blue;
+	border-radius: 5px;
+}
+
+.event-list-title {
+	margin-left: 10px;
+}
+.footer{
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
